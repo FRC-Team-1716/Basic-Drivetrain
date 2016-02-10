@@ -21,8 +21,8 @@
 
   <property file="${user.home}/wpilib/wpilib.properties"/>
   <property file="build.properties"/>
-  <property file="${user.home}/wpilib/cpp/${version}/ant/build.properties"/>
+  <property file="${user.home}/wpilib/cpp/current/ant/build.properties"/>
+<!-- ${wpilib.ant.dir} -->
+  <import file="${user.home}/wpilib/cpp/current/ant/build.xml"/>
 
-  <import file="${wpilib.ant.dir}/build.xml"/>
-
-</project> 
+</project>
