@@ -28,7 +28,7 @@ public:
 	std::shared_ptr<SpeedController> frontRight;
 	std::shared_ptr<SpeedController> rearLeft;
 	std::shared_ptr<SpeedController> rearRight;
-	std::shared_ptr<RobotDrive> backDrive;
+	std::shared_ptr<RobotDrive> drive;
 
 	DriveSystem();
 	void InitDefaultCommand();
